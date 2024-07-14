@@ -1,0 +1,53 @@
+body,html{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header img{
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 20px;
+    
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.buttons{
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    
+}
+input[type="sumbit"]:hover{
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+footer{
+    margin-top: 50px;
+}
+.links a{
+    margin:0 10px;
+    text-decoration: none;
+    color:#555;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.input:hover{
+    background-color: black;
+    color: grey;
+}
